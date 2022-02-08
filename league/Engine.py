@@ -1,13 +1,18 @@
 
 import sys, pygame
+from league import Scene
 pygame.init()
 
 
 #Temporary comments about default engine game code in this file were done by Gino 7FEB2022 circa 6p.m.
 
 # tuple of w,h stored in size variable and initialized to 320w and 240h
-size = width, height = 320, 240
+size = width, height = 1024, 768
 
+#Scene is imported from the class "Scene"
+scene = Scene
+
+visible_statistics = False
 #speed is saved in the x and y direction in an array here
 speed = [2, 2]
 
